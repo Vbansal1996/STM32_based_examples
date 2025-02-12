@@ -4,3 +4,9 @@ RoundRobin/Debug/*
 RoundRobin/.settings/*
 CC1101_RF_Module/Debug/*
 CC1101_RF_Stm32F4/Debug/*
+FOTA/.metadata/*
+FOTA/Applicattion-BMS/.metadata/*
+FOTA/Requirement_Draft.pages
+FOTA/Applicattion-BMS/.settings/*
+FOTA/BootLoader/.settings/*
+FOTA/BootLoader/Debug/*

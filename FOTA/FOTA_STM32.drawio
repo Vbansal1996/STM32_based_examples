@@ -1,0 +1,597 @@
+<mxfile host="app.diagrams.net" modified="2024-05-18T08:48:24.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="xwfb9EvLuwXYMJoA-AUT" version="24.4.4" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="984" dy="1767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-1" value="Bootloader" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-2" value="EEPROM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-3" value="APP + AES" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-4" value="Desktop&lt;div&gt;/ IOT Device&lt;/div&gt;&lt;div&gt;/ Any third Party Device&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="lax63M6g1z-l_vcYS6Rf-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="2040" as="sourcePoint" />
+            <mxPoint x="460" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="2040" as="sourcePoint" />
+            <mxPoint x="319.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="2040" as="sourcePoint" />
+            <mxPoint x="519.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="160" as="sourcePoint" />
+            <mxPoint x="120" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-11" value="Power Up" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-10">
+          <mxGeometry x="-0.075" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="180" as="sourcePoint" />
+            <mxPoint x="120" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="180" />
+              <mxPoint x="160" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-15" value="Init HAL Layer&lt;div&gt;Init Flash&lt;/div&gt;&lt;div&gt;Init I2C&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-12">
+          <mxGeometry x="-0.0167" relative="1" as="geometry">
+            <mxPoint x="20" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="2040" as="sourcePoint" />
+            <mxPoint x="719.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="120" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="240" />
+              <mxPoint x="160" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-20" value="Init Ext&lt;div&gt;EEPROM Drivers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-18">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="310" as="sourcePoint" />
+            <mxPoint x="320" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-22" value="Read from Location X" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-21">
+          <mxGeometry x="0.01" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="340" as="sourcePoint" />
+            <mxPoint x="120" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-24" value="Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-23">
+          <mxGeometry x="0.12" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="360" as="sourcePoint" />
+            <mxPoint x="120" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="360" />
+              <mxPoint x="160" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-27" value="Analyse the&lt;div&gt;data received&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-26">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="480" as="sourcePoint" />
+            <mxPoint x="520" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-29" value="Jump to APP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-28">
+          <mxGeometry x="0.055" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="500" as="sourcePoint" />
+            <mxPoint x="520" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="500" />
+              <mxPoint x="560" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-32" value="Init Application&amp;nbsp;&lt;div&gt;Peripherals&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-31">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="420" as="sourcePoint" />
+            <mxPoint x="120" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="420" />
+              <mxPoint x="160" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-34" value="De-Init&lt;div&gt;EEPROM Drivers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-33">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint x="30" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="560" as="sourcePoint" />
+            <mxPoint x="520" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="560" />
+              <mxPoint x="560" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-36" value="Init OTA Layer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-35">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="730" as="sourcePoint" />
+            <mxPoint x="720" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-38" value="OTA File&amp;nbsp;&lt;div&gt;received&amp;nbsp;&lt;/div&gt;&lt;div&gt;from Cloud&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-37">
+          <mxGeometry x="0.125" relative="1" as="geometry">
+            <mxPoint x="15" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="750" as="sourcePoint" />
+            <mxPoint x="720" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="750" />
+              <mxPoint x="760" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-40" value="Download&amp;nbsp;&lt;div&gt;Complete File&amp;nbsp;&lt;/div&gt;&lt;div&gt;In Memory&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-39">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="620" as="sourcePoint" />
+            <mxPoint x="520" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="620" />
+              <mxPoint x="560" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-42" value="Doing Normal&lt;div&gt;Operation&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-41">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="803" as="sourcePoint" />
+            <mxPoint x="520" y="803" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-45" value="Triggger Boot Mode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-44">
+          <mxGeometry x="0.15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="823" as="sourcePoint" />
+            <mxPoint x="520" y="863" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="823" />
+              <mxPoint x="560" y="863" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-48" value="Redirect&lt;div&gt;UART Data&lt;/div&gt;&lt;div&gt;to OTA Layer&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-47">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="883" as="sourcePoint" />
+            <mxPoint x="720" y="883" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-50" value="ACK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-49">
+          <mxGeometry x="-0.06" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-51" value="Y-Modem Protocol" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="913" width="410" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="lax63M6g1z-l_vcYS6Rf-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="40" as="sourcePoint" />
+            <mxPoint x="120" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-54" value="Send File Size&lt;div&gt;File Name&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-53">
+          <mxGeometry x="-0.01" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-59" value="While Complete File Not received" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="lax63M6g1z-l_vcYS6Rf-51">
+          <mxGeometry x="10" y="100" width="390" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-60" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="lax63M6g1z-l_vcYS6Rf-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="100" as="sourcePoint" />
+            <mxPoint x="110" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-61" value="Send packet as per&lt;div&gt;y-modem protocol&lt;/div&gt;&lt;div&gt;Along 128 bytes of Data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-60">
+          <mxGeometry x="-0.01" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-75" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="lax63M6g1z-l_vcYS6Rf-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="130" as="sourcePoint" />
+            <mxPoint x="110" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="130" />
+              <mxPoint x="150" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-76" value="Validate CRC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-75">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-94" value="CRC Valid?" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="lax63M6g1z-l_vcYS6Rf-59">
+          <mxGeometry x="10" y="200" width="370" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-85" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="lax63M6g1z-l_vcYS6Rf-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="100" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="200" />
+              <mxPoint x="140" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-86" value="Store in Flash&lt;div&gt;at backup Location&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-85">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-82" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="lax63M6g1z-l_vcYS6Rf-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="130" as="sourcePoint" />
+            <mxPoint x="100" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="130" />
+              <mxPoint x="140" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-83" value="If OK?&lt;div&gt;Decrypt the packet&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-82">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="lax63M6g1z-l_vcYS6Rf-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="80" as="sourcePoint" />
+            <mxPoint x="300" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-79" value="If CRC OK?&lt;div&gt;ACK,&lt;/div&gt;&lt;div&gt;Else&amp;nbsp;&lt;/div&gt;&lt;div&gt;NACK&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-78">
+          <mxGeometry x="-0.01" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-95" value="CRC Not Valid" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="lax63M6g1z-l_vcYS6Rf-59">
+          <mxGeometry x="10" y="470" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-103" value="File Transfer Complete!!" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="lax63M6g1z-l_vcYS6Rf-51">
+          <mxGeometry x="10" y="720" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-106" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="lax63M6g1z-l_vcYS6Rf-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="80" as="sourcePoint" />
+            <mxPoint x="310" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-107" value="ACK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-106">
+          <mxGeometry x="-0.02" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="983" as="sourcePoint" />
+            <mxPoint x="720" y="983" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-56" value="ACK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-55">
+          <mxGeometry x="-0.04" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1053" as="sourcePoint" />
+            <mxPoint x="720" y="1093" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="1053" />
+              <mxPoint x="760" y="1093" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-63" value="Create Data&amp;nbsp;&lt;div&gt;packet + CRC&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-62">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-96" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1523" as="sourcePoint" />
+            <mxPoint x="720" y="1523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-97" value="NACK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-96">
+          <mxGeometry x="0.1" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-100" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1543" as="sourcePoint" />
+            <mxPoint x="720" y="1583" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="1543" />
+              <mxPoint x="760" y="1583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-101" value="Continue&amp;nbsp;&lt;div&gt;with OLC&lt;/div&gt;&lt;div&gt;Sequence&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-100">
+          <mxGeometry x="-0.0167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-104" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1683" as="sourcePoint" />
+            <mxPoint x="520" y="1683" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-105" value="EOT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-104">
+          <mxGeometry x="-0.02" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-108" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1778" as="sourcePoint" />
+            <mxPoint x="320" y="1778" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-110" value="Update Backup&amp;nbsp;&lt;div&gt;Location address&lt;/div&gt;&lt;div&gt;In EEPROM at X Location&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-108">
+          <mxGeometry x="0.15" y="-2" relative="1" as="geometry">
+            <mxPoint x="15" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-113" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1858" as="sourcePoint" />
+            <mxPoint x="320" y="1858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-114" value="Update Values" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-113">
+          <mxGeometry x="-0.0211" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-115" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1898" as="sourcePoint" />
+            <mxPoint x="520" y="1938" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1898" />
+              <mxPoint x="560" y="1938" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-116" value="Update&amp;nbsp;&lt;div&gt;Peripherals&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-115">
+          <mxGeometry x="0.0167" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-117" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1958" as="sourcePoint" />
+            <mxPoint x="120" y="1958" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-118" value="Reset to Bootloader" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-117">
+          <mxGeometry x="0.025" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-119" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;FOTA&lt;/h1&gt;&lt;p&gt;This sequence diagram mentioned below, explain the procedure we are going to use for the firmware upgrade using UART/RS485 Interface&lt;/p&gt;&lt;p&gt;The FOTA Controller, meant the device which is going to deliver the firmware must follow the Y-Modem Protocol for file transfer.&lt;/p&gt;&lt;p&gt;CRC calculator will be different and logic will be shared.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-720" width="760" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-120" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;File Encryption Logic&lt;/h1&gt;&lt;div&gt;You will receive a python script that will convert the bin file into enc bin file&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PLEASE MAKE SURE THAT THE KEY IN THE SCRIPT SHOULD BE ALIGNED WITH THE KEY IN THE FIRMWARE ELSE THE FILE DECRYPTION WILL FAIL.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2220" width="770" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-121" value="User&lt;div&gt;/ Developer&lt;/div&gt;&lt;div&gt;/ Tester&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-122" value="Python Script" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="2360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-124" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="2800" as="sourcePoint" />
+            <mxPoint x="160" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-125" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="2800" as="sourcePoint" />
+            <mxPoint x="519.5" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-126" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="2480" as="sourcePoint" />
+            <mxPoint x="520" y="2480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-127" value="Run Exe File" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-126">
+          <mxGeometry x="0.1278" y="3" relative="1" as="geometry">
+            <mxPoint x="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-128" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="2510" as="sourcePoint" />
+            <mxPoint x="160" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-129" value="Select the bin file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-128">
+          <mxGeometry x="0.1278" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-130" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="2550" as="sourcePoint" />
+            <mxPoint x="520" y="2550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-131" value="Bin File Selected" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-130">
+          <mxGeometry x="-0.1167" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-132" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="2580" as="sourcePoint" />
+            <mxPoint x="520" y="2630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="2580" />
+              <mxPoint x="560" y="2630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-133" value="Encrypt the&lt;div&gt;Bin File&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-132">
+          <mxGeometry x="-0.0308" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-134" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="2660" as="sourcePoint" />
+            <mxPoint x="160" y="2660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-135" value="Deliver the ENC_BIN_FILE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-134">
+          <mxGeometry x="0.0333" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-139" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="680" as="sourcePoint" />
+            <mxPoint x="520" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-140" value="Query FW Version" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-139">
+          <mxGeometry x="0.02" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-141" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="710" as="sourcePoint" />
+            <mxPoint x="720" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-142" value="FW Version" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-141">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-143" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="2710" as="sourcePoint" />
+            <mxPoint x="160" y="2760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="2710" />
+              <mxPoint x="200" y="2760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lax63M6g1z-l_vcYS6Rf-144" value="Share ENC File&lt;div&gt;&amp;nbsp;for the OTA&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lax63M6g1z-l_vcYS6Rf-143">
+          <mxGeometry x="-0.0154" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
