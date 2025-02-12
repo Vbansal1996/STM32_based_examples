@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "cmox_crypto.h": "c",
+        "cmox_cipher.h": "c"
+    }
+}
