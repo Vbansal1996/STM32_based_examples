@@ -10,3 +10,5 @@ FOTA/Requirement_Draft.pages
 FOTA/Applicattion-BMS/.settings/*
 FOTA/BootLoader/.settings/*
 FOTA/BootLoader/Debug/*
+ICM20948_G0/Debug/*
+.metadata/*
