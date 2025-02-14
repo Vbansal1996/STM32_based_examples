@@ -12,3 +12,4 @@ FOTA/BootLoader/.settings/*
 FOTA/BootLoader/Debug/*
 ICM20948_G0/Debug/*
 .metadata/*
+*/Debug/*
