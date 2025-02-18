@@ -14,3 +14,6 @@ ICM20948_G0/Debug/*
 .metadata/*
 */Debug/*
 */.settings/*
+ICM20948_G0/.settings/language.settings.xml
+mc60_mqtt/.settings/language.settings.xml
+CC1101_RF_Module/.settings/language.settings.xml
